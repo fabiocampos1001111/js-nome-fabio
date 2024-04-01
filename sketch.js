@@ -1,7 +1,10 @@
 function setup() {
-    createCanvas(400, 400);
+  createCanvas(600, 600);
+}
+
+function draw() {
+  strocke ('blue');
+  fill('red');
+  ifif(mouseIsPrssed){
+    rect(mouseX, mouseY, 20, 35);
   }
-  
-  function draw() {
-    background(220);
-  }    
